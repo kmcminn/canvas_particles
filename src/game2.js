@@ -17,11 +17,7 @@ M.particle1 = new SimpleParticleGenerator(10, M.color.randomHexColor);
 M.particle1.setGenerator('dynamic');
 M.metrics = new Metrics();
 
-
 // setup what will get update method calls, commented out to use direct calls in update()
-// M.objects.push(M.time);
-// M.objects.push(M.particle1);
-// M.objects.push(M.metrics);
 
 // setup and configure our environment
 M.setup(window.innerWidth, window.innerHeight);
@@ -31,6 +27,3 @@ M.metrics.init();
 
 // begin the game
 M.animate(0);
-
-
-
